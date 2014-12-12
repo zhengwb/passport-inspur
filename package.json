@@ -1,0 +1,46 @@
+{
+  "name": "passport-inspur",
+  "version": "0.0.1",
+  "description": "Inspur(OAuth2) authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "inspur",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Weibo Zheng",
+    "email": "zhengwb@gmail.com",
+    "url": "http://weibo.com/zhengwb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhengwb/passport-inspur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhengwb/passport-inspur/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.2.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
